@@ -5,7 +5,6 @@ const genMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
-  inquirer.prompt([
     {
       type: "input",
       name: "name",
@@ -87,18 +86,18 @@ const questions = [
       },
     },
     {
-        type: "input",
-        name: "usage",
-        message: "Provide instructions on how your project is used:",
-        validate: (nameInput) => {
-          if (nameInput) {
-            return true;
-          } else {
-            console.log("Let users know how to use your project!");
-            return false;
-          }
-        },
+      type: "input",
+      name: "usage",
+      message: "Provide instructions on how your project is used:",
+      validate: (nameInput) => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log("Let users know how to use your project!");
+          return false;
+        }
       },
+    },
     {
       type: "confirm",
       name: "confirmLicense",
@@ -119,39 +118,50 @@ const questions = [
       },
     },
     {
-        type: "input",
-        name: "contributing",
-        message: "How can other users contribute to your project?",
-        validate: (nameInput) => {
-          if (nameInput) {
-            return true;
-          } else {
-            console.log("Please enter a way others can help contribute!");
-            return false;
-          }
-        },
+      type: "input",
+      name: "contributing",
+      message: "How can other users contribute to your project?",
+      validate: (nameInput) => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log("Please enter a way others can help contribute!");
+          return false;
+        }
       },
-      {
-        type: "input",
-        name: "tests",
-        message: "How can uesrs test your application?",
-        validate: (nameInput) => {
-          if (nameInput) {
-            return true;
-          } else {
-            console.log("Let users know how they can test your app!");
-            return false;
-          }
-        },
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "How can uesrs test your application?",
+      validate: (nameInput) => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log("Let users know how they can test your app!");
+          return false;
+        }
       },
+    },
   ]),
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile("newREADME.md", data, (err) => {
+    if (err) {
+      console.log(err);
+      return;
+    } else {
+      console.log("Successfully created new README file!");
+    }
+  });
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    return inquirer.prompt(questions);
+}
 
 // Function call to initialize app
 init();

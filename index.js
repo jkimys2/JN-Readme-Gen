@@ -146,8 +146,8 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFile("newREADME.md", data, (err) => {
+function writeToFile(data) {
+  fs.writeFile("./output/README.md", data, (err) => {
     if (err) {
       console.log(err);
       return;
@@ -164,8 +164,8 @@ function init() {
 
 // Function call to initialize app
 init()
-  .then((input) => {
-    return genMarkdown(input);
+  .then((data) => {
+    return genMarkdown(data);
   })
   .then((data) => {
     return writeToFile(data);

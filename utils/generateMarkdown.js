@@ -60,8 +60,8 @@ ${renderLicenseBadge(data.license)}
   ${data.tests}
 
   ## Questions
-  Questions? Reach out to me via
-  GitHub: https://github.com/${data.github}
+  Questions? Reach out to me via: \n
+  GitHub: https://github.com/${data.github} \n
   Email: ${data.email}
 `;
 }

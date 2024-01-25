@@ -32,8 +32,8 @@ There was starter code provided for this project. Those files were used in order
 
 In order to create your own quality README file, you will need the following:
 
--Visual Studio Code
--Node.js
+- Visual Studio Code <br>
+- Node.js
 
 
 ## Usage
@@ -43,6 +43,8 @@ Once you have the files in VS Code, you will need to install the Inquirer packag
 Here is a snippet on how this README generator works:
 
 ![screenshot](./assets/README%20Gen.gif)
+
+You can view the full walkthrough demonstration here:
 
 
 ## Credits

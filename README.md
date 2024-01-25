@@ -23,7 +23,7 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-This project was built using Inquirer as well as Node.js. This project was created to help others create a quality README file with well-structured guidelines. 
+This project was built using Inquirer as well as Node.js. This project was created to help others create a quality README file with well-structured guidelines. A sample README file is available for viewing in the uilities folder.
 
 There was starter code provided for this project. Those files were used in order to build this README generator.
 

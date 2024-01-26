@@ -44,7 +44,7 @@ Here is a snippet on how this README generator works:
 
 ![screenshot](./assets/README%20Gen.gif)
 
-You can view the full walkthrough demonstration here:
+You can view the full walkthrough demonstration here: https://drive.google.com/file/d/1i00QDTofDwfaKjY3Bn86PT-97_HMiSbl/view
 
 
 ## Credits

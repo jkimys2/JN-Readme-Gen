@@ -42,7 +42,7 @@ ${renderLicenseBadge(data.license)}
   - [Installation](#installation)
   - [Usage](#usage)
   ${renderLicenseLink(data.license)}
-  - [Contribution](#contributing)
+  - [Contribution](#contribution)
   - [Tests](#tests)
 
   ## Installation

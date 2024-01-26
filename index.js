@@ -133,7 +133,7 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "How can uesrs test your application?",
+    message: "How can users test your application?",
     validate: (nameInput) => {
       if (nameInput) {
         return true;

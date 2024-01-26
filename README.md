@@ -2,7 +2,7 @@
 
 ## Description
 
-Through this project, I was able to create a README file generator. Once in the integrated terminal, users are prompted questions on how they would like to build their README file. This challenge was completed by following these acceptance criterias:
+Through this project, I was able to create a README file generator. Once in the integrated terminal, users are prompted questions on how they would like to build their README file. This challenge was completed by following the acceptance criterias listed below:
 
 
 ```
@@ -23,7 +23,7 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-This project was built using Inquirer as well as Node.js. This project was created to help others create a quality README file with well-structured guidelines. A sample README file is available for viewing in the uilities folder.
+This project was built using Inquirer as well as Node.js. It was created to help others create a quality README file with well-structured guidelines. A sample README file is available for viewing in the output folder!
 
 There was starter code provided for this project. Those files were used in order to build this README generator.
 
@@ -38,7 +38,7 @@ In order to create your own quality README file, you will need the following:
 
 ## Usage
 
-Once you have the files in VS Code, you will need to install the Inquirer package. Once that is done, open the Integrated Terminal. In the terminal, you will need to run "node index.js" in order to start the prompts. Once you go through all the questions, your new README file will be created in the utilities folder!
+Once you have the files in VS Code, you will need to install the Inquirer package. Once that is done, open the Integrated Terminal. In the terminal, you will need to run "node index.js" in order to start the prompts. Once you go through all of the questions, your new README file will be created in the output folder!
 
 Here is a snippet on how this README generator works:
 
